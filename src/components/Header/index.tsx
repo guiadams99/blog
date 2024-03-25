@@ -11,7 +11,7 @@ export function Header() {
                     <Image src={logo} alt="Simpleway Logo" />
                 </Link>
                 <nav>
-                    <Link href="/home">Plataforma</Link>
+                    <Link href="/">Plataforma</Link>
                     <Link href="/lgpd">LGPD</Link>
                     <Link href="/planos">Planos</Link>
                     <Link href="/faq">FAQ</Link>
