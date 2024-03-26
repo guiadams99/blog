@@ -1,6 +1,6 @@
 import styles from '@/components/Header/style.module.scss';
 import Image from 'next/image';
-import logo from '../../../public/imagens/logo.png';
+import logo from '../../../public/imagens/logo.svg';
 import Link from 'next/link';
 
 export function Header() {

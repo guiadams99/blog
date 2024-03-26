@@ -40,6 +40,8 @@
     font-size: 1.5rem;
     line-height: 2rem;
     color: #252430;
+    font-weight: 200;
+
   }
   .subtextoDestacado {
     font-size: 1.6rem;
@@ -64,13 +66,14 @@
 
     h2{
       font-size: 2.4rem;
-      line-height: 2rem;
+      line-height: 4rem;
       color: #252430;
       text-align: center;
       display: flex;
       justify-content: center; /* Alinha horizontalmente ao centro */
       align-items: center; /* Alinha verticalmente ao centro */
-      
+      margin: 0 auto; /* Centralize o contêiner na tela */
+
     }
   
     span{
@@ -81,22 +84,64 @@
       display: flex;
       justify-content: center; /* Alinha horizontalmente ao centro */
       align-items: center; /* Alinha verticalmente ao centro */
-      
+      font-weight: 200;
+      margin: 0 auto; /* Centralize o contêiner na tela */
+
+
     }
   }
-  .iconesContainer {
+.iconesContainer{
+  
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    height: 100vh;
-  }
+    gap: 60px;
+    height: 40vh;
+  
   
   .icone {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1px; 
   }
+
+  h3{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #252B42;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 auto; /* Centralize o contêiner na tela */
+
+    
+  }
+    
+  span{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #252430;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    font-weight: 200;
+    margin: 0 auto; /* Centralize o contêiner na tela */
+
+
+  }
+
+}  
+.videoContainer {
+  width: 100%; /* Defina a largura conforme necessário */
+  max-width: 900px; /* Defina a largura máxima conforme necessário */
+  border: 0.5px solid #ffff; /* Adicione uma borda sólida ao redor do vídeo */
+  border-radius: 55px; /* Adicione bordas arredondadas */
+  overflow: hidden; /* Certifique-se de que o vídeo não ultrapasse as bordas */
+  margin: 0 auto; /* Centralize o contêiner na tela */
+}
+
+
+  
   
 
